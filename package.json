@@ -1,0 +1,29 @@
+{
+    "name": "node-adafruit-pmsa300i",
+    "version": "1.0.0",
+    "description": "Node.js package to access Adafruit PMSA300I Air Quality Sensor",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/narsters/node-adafruit-pmsa300i"
+    },
+    "keywords": [
+      "Adafruit",
+      "PMSA300I",
+      "Air Quality",
+      "Sensor",
+      "IoT"
+    ],
+    "author": "narsters",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/narsters/node-adafruit-pmsa300i/issues"
+    },
+    "homepage": "https://github.com/narsters/node-adafruit-pmsa300i#readme",
+    "dependencies": {
+      "python-shell": "^0.4.0"
+    }
+  }
