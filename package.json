@@ -1,6 +1,6 @@
 {
     "name": "node-adafruit-pmsa300i",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Node.js package to access Adafruit PMSA300I Air Quality Sensor",
     "main": "index.js",
     "scripts": {
