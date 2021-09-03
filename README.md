@@ -8,19 +8,19 @@ This module uses CircuitPython libraries and python-shell node.js bridge to conn
 
 ## Installation
 ```
-`npm --save install node-adafruit-pmsa300i`
+npm --save install node-adafruit-pmsa300i
 ```
 
 ## Usage
 ```
-`const AirQualitySensor = require('node-adafruit-pmsa300i');
+const AirQualitySensor = require('node-adafruit-pmsa300i');
 
 AirQualitySensor.read(function(results) {
   console.log(results);
-});`
+});
 
 results is an object with the following signature:
-`{
+{
     pm10Standard: number,
     pm25Standard: number,
     pm100Standard: number,
@@ -33,7 +33,7 @@ results is an object with the following signature:
     particles25um: number,
     particles50um: number,
     particles100um: number
-}`
+}
 
 
 ```
